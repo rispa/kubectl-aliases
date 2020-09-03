@@ -73,8 +73,10 @@ function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }
   * **`ex`**: `exec -i -t`
   * **`lo`**: `logs -f`
 * resources:
-  * **`po`**=pod, **`rs`**=`replicaset`, **`dep`**=`deployment`, **`ing`**=`ingress`,
-    **`svc`**=`service`, **`cm`**=`configmap`, **`sec`=`secret`**,
+  * **`po`**=pod, **`rs`**=`replicaset`, **`dep`**=`deployment`,
+    **`ss`**=`statefulset`, **`ds`**=`daemonset`
+    **`svc`**=`service`,  **`ing`**=`ingress`,
+    **`cm`**=`configmap`, **`sec`=`secret`**,
     **`ns`**=`namespace`, **`no`**=`node`
     **`pv`**=`persistentvolume`, **`pvc`**=`persistentvolumeclaim`
 * flags:
