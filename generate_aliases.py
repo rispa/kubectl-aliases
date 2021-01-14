@@ -57,6 +57,7 @@ def main():
         ('pv', 'persistentvolume', ['g', 'd', 'rm'], None),
         ('pvc', 'persistentvolumeclaim', ['g', 'd', 'rm'], None),
         ('sec', 'secret', ['g', 'd', 'rm'], None),
+        ('ssec', 'sealedsecret', ['g', 'd', 'rm'], None),
         ('ss', 'statefulset', ['g', 'd', 'rm'], None),
         ('ds', 'daemonset', ['g', 'd', 'rm'], None),
         ('no', 'nodes', ['g', 'd'], ['sys']),
